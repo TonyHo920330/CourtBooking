@@ -237,7 +237,7 @@ def get_all_booking():
 # 更新球場狀況
 @app.route("/courtsUpdate")
 def courts_update_page():
-    if "user_id" not in session:
+    if "user_id" not in session or session.get("user_id") != "Uc7a5de96a610da9dd30b2af7d63f2d06":
         return redirect("/login")
     return render_template("courtsUpdate.html")
 

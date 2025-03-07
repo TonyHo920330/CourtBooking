@@ -1,3 +1,3 @@
 LINE_CLIENT_ID = "2006862539"
 LINE_CLIENT_SECRET = "b4631d48aecf1a82b7612341335b05e0"
-REDIRECT_URI = "https://1c0e-114-32-248-146.ngrok-free.app/callback"  # 必須與 LINE Login 設定相同
+REDIRECT_URI = "https://a96e-114-32-248-146.ngrok-free.app/callback"  # 必須與 LINE Login 設定相同

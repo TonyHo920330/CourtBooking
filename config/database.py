@@ -5,7 +5,7 @@ def get_db_connection():
     return mysql.connector.connect(
         host="192.168.101.128",
         user="remote_user",
-        password="your_password",
+        password="XXXXXXXXX",
         database="LineBot"
     )
 
